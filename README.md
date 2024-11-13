@@ -1,12 +1,12 @@
 ### 1. Introduction
 
-The `searchEngine` algorithm is designed to provide a reliable and efficient search mechanism for document files stored in a directory. Its purpose is to simplify the process of finding documents based on specific keywords or phrases, making it especially useful for environments that require fast access to large collections of text documents. This system preprocesses document content, builds an index, and provides a user-friendly interface to perform quick searches by leveraging optimized data structures and techniques for high performance.
+The `search-documents` algorithm is designed to provide a reliable and efficient search mechanism for document files stored in a directory. Its purpose is to simplify the process of finding documents based on specific keywords or phrases, making it especially useful for environments that require fast access to large collections of text documents. This system preprocesses document content, builds an index, and provides a user-friendly interface to perform quick searches by leveraging optimized data structures and techniques for high performance.
 
 ---
 
 ### 2. Goals
 
-The primary goals of the `searchEngine` algorithm are:
+The primary goals of the `search-documents` algorithm are:
 
 - **Efficient Indexing**: Build a fast and lightweight index of document content to support quick keyword searches.
 - **Scalable Search Mechanism**: Design the system to handle an increasing number of documents without significant performance degradation.
@@ -18,7 +18,7 @@ The primary goals of the `searchEngine` algorithm are:
 
 ### 3. Implementation Plan
 
-The implementation of the `searchEngine` algorithm follows these steps:
+The implementation of the `search-documents` algorithm follows these steps:
 
 - **Step 1**: Define the structure of the search engine class, including attributes like `indexes` (a dictionary to hold keywords and their respective documents) and `stopWords` (common words to exclude from indexing).
 - **Step 2**: Develop methods for reading and processing files, including handling punctuation, case normalization, and word tokenization.
@@ -30,7 +30,7 @@ The implementation of the `searchEngine` algorithm follows these steps:
 
 ### 4. Approach
 
-The approach for the `searchEngine` algorithm emphasizes simplicity, efficiency, and scalability:
+The approach for the `search-documents` algorithm emphasizes simplicity, efficiency, and scalability:
 
 - **Indexing Strategy**: 
   - Use a dictionary structure to map keywords to documents, allowing quick lookups.
@@ -74,4 +74,4 @@ Each option prompts the user and provides clear feedback messages to enhance usa
 
 ### 7. Conclusion / Ending
 
-The `searchEngine` algorithm successfully implements an efficient and scalable system for document indexing and searching. It meets key objectives of fast retrieval, case-insensitive search, and extensibility for future improvements. By leveraging a dictionary-based indexing approach and filtering out stop words, the algorithm ensures a manageable index size while maximizing search relevance. Future enhancements, such as supporting other file types (PDFs, web pages) and adding ranking algorithms for improved relevance, can make this tool even more robust and versatile.
+The `search-documents` algorithm successfully implements an efficient and scalable system for document indexing and searching. It meets key objectives of fast retrieval, case-insensitive search, and extensibility for future improvements. By leveraging a dictionary-based indexing approach and filtering out stop words, the algorithm ensures a manageable index size while maximizing search relevance. Future enhancements, such as supporting other file types (PDFs, web pages) and adding ranking algorithms for improved relevance, can make this tool even more robust and versatile.
