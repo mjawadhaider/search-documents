@@ -74,6 +74,10 @@ class searchEngine:
 
     # This method take query as parameter and returns a list of related file names
     def searchDocuments(self, query):
+        if query == "" or not query:
+            displayMsg('Enter a valid query!')
+            return None
+
         if len(self.indexes) == 0:
             displayMsg('Create Indexes to search a document!')
             return None
